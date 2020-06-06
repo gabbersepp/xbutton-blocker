@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HookDll", "HookDll\HookDll.vcxproj", "{16A2C5DB-171F-4AB6-B306-EDF883D752D8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App", "App\App.csproj", "{1085093B-B13E-45C8-8FAE-6574C0600A6D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{16A2C5DB-171F-4AB6-B306-EDF883D752D8} = {16A2C5DB-171F-4AB6-B306-EDF883D752D8}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
