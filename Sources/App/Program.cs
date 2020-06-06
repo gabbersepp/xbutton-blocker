@@ -32,7 +32,7 @@ namespace App
         private static void InitIcon()
         {
             notifyIcon = new NotifyIcon();
-            notifyIcon.Icon = new Icon("example.ico");
+            notifyIcon.Icon = new Icon(typeof(Program), "xbutton-blocker.ico");
             SetText();
             notifyIcon.Visible = true;
             notifyIcon.ContextMenuStrip = GetContextMenu();
