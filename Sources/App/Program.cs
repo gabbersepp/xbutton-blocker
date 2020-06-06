@@ -62,6 +62,7 @@ namespace App
 
         private static void CloseClick(object sender, EventArgs e)
         {
+            RemoveHook();
             Application.Exit();
         }
 
